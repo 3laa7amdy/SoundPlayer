@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LogInActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="90dp"
+        android:text="SHARE MUSIC !"
+        android:textColor="#11aec0"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/text1"
+        android:layout_alignLeft="@+id/text1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="130dp"
+        android:text="share music, make friends, enjoy"
+        android:textColor="#FAFAFC"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="180dp"
+        android:paddingLeft="15dp"
+        android:textColor="#FFF"
+        android:background="@drawable/shap2"
+        android:layout_marginRight="40dp"
+        android:textColorHint="#FFF"
+        android:hint="User Name" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="15dp"
+        android:textColorHint="#FFF"
+        android:background="@drawable/shap2"
+        android:layout_marginTop="250dp"
+        android:gravity="left"
+        android:inputType="textPassword"
+        android:textColor="#FFF"
+        android:layout_marginRight="40dp"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/logein"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/shap2"
+        android:text="Log In"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/shap2"
+        android:textColor="#FFF"
+        android:text="Sign Up"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>

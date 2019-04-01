@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SoundPlayer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Music!</string>
+    <string name="slide_1_desc">The easiest way to lisent music from your favourite friends!</string>
+
+    <string name="slide_2_title">Make Friends!</string>
+    <string name="slide_2_desc">Make a family and friends!</string>
+
+    <string name="slide_3_title">New Albums</string>
+    <string name="slide_3_desc">Download the any song or album now !</string>
+
+    <string name="slide_4_title">Share Music</string>
+    <string name="slide_4_desc">Upload your songs to the world!</string>
+
+
+</resources>
